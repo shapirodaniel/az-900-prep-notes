@@ -1,4 +1,4 @@
-azure security center supports monitoring, security recs, and advanced threat protection for cloud and on-prem VM resources -- resources and workloads are protected across a hybrid environment, whether or not they're deployed in Azure <<< cool!
+azure security center supports monitoring, security recs, and advanced threat protection for cloud and on-prem VM resources -- resources and workloads are protected across a hybrid environment, whether or not they're deployed in Azure
 
 security center provides native integration with windows defender advanced threat protection and microsoft cloud app security, as well as many other security solutions -- protections can be extended to other cloud and on-prem resources
 

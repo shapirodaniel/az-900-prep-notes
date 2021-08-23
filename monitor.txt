@@ -1,4 +1,4 @@
-azure monitor: use autoscale to add/remove resources to minimize costs and ensure performance -- you can create rules based on metrics collected by a.monitor to match resources to application load
+azure monitor: use autoscale to add/remove resources to minimize costs and ensure performance -- you can create rules based on metrics collected by azure monitor to match resources to application load
 
 ***
 
@@ -14,4 +14,4 @@ things you can do with azure monitor:
 - drill into monitoring data with log analytics
 - support ops at scale with smart alerts and automated actions
 - create visualizations with dashboards and workbooks
-- collect data from monitored resources using a.monitor metrics
+- collect data from monitored resources using azure monitor metrics
