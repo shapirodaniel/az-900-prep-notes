@@ -1,0 +1,6 @@
+microsoft marketplace provides purchase and subscription links to certified cloud apps and solution from microsoft and its tech partners 
+
+- all apps are certified through MS Azure Certification program
+- api, azure ad, data services, dev services, VMs, web apps
+
+purchase options: variable, by app/service, may include monthly charges and/or pay-as-you-go options, some are even free

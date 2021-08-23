@@ -1,0 +1,20 @@
+azure iot central: manage iot devices in a low-code environment
+
+projects start with: generic or industry-focused templates -- create and connect devices, beginning from a device template
+
+device templates define characteristics like:
+- telemetry data types
+- business properties that can be modified
+- device properties that are read-only in-app
+- properties that determine the behavior of the device, eg a target temperature for a temp sensor
+- commands an operator can call that run on the device, eg remote reboot
+
+***
+
+iot central allows you to manage your devices through the app lifecycle
+
+- dashboard: pre-built, or customized, shared with all users or none (private)
+
+- rules/actions: build custom rules based on device state and telemetry to identify devices that need attention, and configure actions to notify the right people to undertake corrective measures
+
+- jobs: apply single or bulk updates to devices

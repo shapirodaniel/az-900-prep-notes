@@ -1,0 +1,2 @@
+azure pricing calculator: estimate the monthly cost of a cloud solution
+add various resources and choose the region and number of instances per resource

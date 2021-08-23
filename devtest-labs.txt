@@ -1,0 +1,4 @@
+Azure DevTest Labs
+- quickly provision Windows and Linux VMs, manage IaaS/PaaS resources
+- lets devs control deployments and manage dev environment
+- can provision envs based on ARM templates and pre-configured bases, allowing for rapid deployment -- devs can provision resources in minutes, and you can provision multiple testing agents

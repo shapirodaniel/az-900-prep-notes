@@ -1,0 +1,9 @@
+3 kinds of cloud
+
+public: cloud resources owned and operated by service provider, delivered over public internet -- pay for what you use, underlying physical infra is shared with other orgs or "cloud tenants"
+
+hybrid: combine a private cloud with a public cloud -- private cloud infra is not shared with other orgs and is used to host certain workloads like highly sensitive data that can't be stored on the shared infra due to regulatory reqs -- public cloud portion of hybrid solution hosts less sensitive solutions to enable flexible, cost-effective methods of running your workload
+
+private: compute resources are used exclusively by one business/org -- computing infra may belong to your org, or a third-party service provider -- important point: underlying infra is *not shared* with other orgs, dedicated solely to yours
+
+on-prem datacenter computing: typically used to build a private cloud, hardware/software are located at your org's own on-site datacenter and dedicated to your org's workload, only!

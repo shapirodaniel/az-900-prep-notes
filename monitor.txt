@@ -1,0 +1,17 @@
+azure monitor: use autoscale to add/remove resources to minimize costs and ensure performance -- you can create rules based on metrics collected by a.monitor to match resources to application load
+
+***
+
+azure monitor helps maximize availability and performance of your apps and services
+
+- delivers a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-prem devices
+
+- this info helps you understand how your apps are performing and proactively identify issues affecting them and the resources they depend on
+
+things you can do with azure monitor:
+- detect and diagnose issues with app insights
+- correlate infra issues with VM / Container insights
+- drill into monitoring data with log analytics
+- support ops at scale with smart alerts and automated actions
+- create visualizations with dashboards and workbooks
+- collect data from monitored resources using a.monitor metrics

@@ -1,0 +1,9 @@
+network security group (NSG): limit network traffic to resources in a VNet -- an NSG contains a list of security rules that allow or deny inbound or outbound network traffic -- an NSG can be associated to a subnet or a network interface, and an NSG can be associated multiple times
+
+- assign NSGs to subnets to create protected screened subnets or DMZs
+- restrict traffic flow to all machines residing within the subnet
+- each subnet can have 0 or 1 associated NSGs
+
+- you can also assign NSGs to a network interface controller (NIC: ex, card, adapter, LAN adapter, physical network interface, etc) so that all traffic that flows through it is controlled by NSG rules
+
+- each network interface that exists in a subnet can have 0 or 1 associated NSGs

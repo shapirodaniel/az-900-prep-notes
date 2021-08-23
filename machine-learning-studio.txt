@@ -1,0 +1,3 @@
+azure machine learning studio: provides a collaborative drag-and-drop visual workspace to work with machine learning solutions -- allows you to create no-code solutions -- build, test, and deploy predictive analytics solutions on your data
+
+machine learning models created in machine learning studio can't be deployed or managed by azure machine learning service -- they're managed in studio, and only deployed as web services

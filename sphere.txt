@@ -1,0 +1,10 @@
+azure sphere: secured, high-level app platform with built in comms and security for internet-connected devices
+
+- secure microcontroller unit (MCU)
+- custom high-level Linux OS
+- cloud-based security service
+
+benefits:
+- secure app environment: authenticated connections, opt-in peripherals
+- updates can be auto deployed from cloud 
+- product usage data can be reported to the cloud securely

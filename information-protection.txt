@@ -1,0 +1,2 @@
+azure information protection (AIP): enables an org to organize and protect docs and emails through the use of labels that can be applied manually by users, or automatically through admin-defined rules
+- classifications make data identifiable no matter where data is stored, or where it's been shared

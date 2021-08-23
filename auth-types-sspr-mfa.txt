@@ -1,0 +1,5 @@
+self-service password reset and multi-factor authentication support the following authentication types:
+- password: your Azure AD password -- cannot be disabled
+- sms: receive a verification call
+- voice call: answer, then press # for authentication
+

@@ -1,0 +1,5 @@
+azure firewall: deny traffic to your VNet resources from known malicious IP addresses -- it's a firewall service that integrates with Microsoft Threat Intelligence
+
+use azure firewall to create a rule that restricts network traffic across subscriptions
+- built in high availability
+- rule enforcement and logging across subscriptions reduces management overhead

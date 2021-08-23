@@ -1,0 +1,7 @@
+preview levels and general availability
+
+private preview features: not yet prod-ready, available to specific customers by invite
+public preview: new solution ready for evaluation for all customers -- also not yet prod-ready
+general availability: prod-ready and available to general public
+
+*don't use preview features in prod, they haven't been fully tested!*

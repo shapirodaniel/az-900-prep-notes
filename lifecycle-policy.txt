@@ -1,0 +1,1 @@
+advance warning given before retiring a guest OS: 12 months

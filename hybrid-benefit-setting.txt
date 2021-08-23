@@ -1,0 +1,1 @@
+azure hybrid benefit setting: activate this licensing option in VM settings, allows you to use existing Windows Server licenses covered by an active MS Software Assurance Agreement -- run Windows VMs in azure, paying only for VMs infra cost, up to 40% of regular cost

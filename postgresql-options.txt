@@ -1,0 +1,27 @@
+azure database for postgreSQL: Single Server
+
+- a fully managed database service with minimal requirements for customization
+- designed to handle most db fns, patching, backups, high availability, security, with minimal user config / control5
+- architecture is optimized for built-in high availability, with 99.99% on single availability zone
+- supports 9.5, 9.6, 10, 11
+- generally available in a wide variety of azure regions
+
+single server specifics:
+
+general purpose tier -- storage up to 16TB, uses Azure Premium storage, point-in-time restore is met by all azure database for postgresql deployments
+
+***
+
+azure database for postgresql: Flexible Server (preview)
+
+- fully managed, but with greater granular control and customization options
+- high availability within a single a.zone and across multiple a.zones
+- better cost optimization: start/stop and burstable compute tier, ideal for intermittent workloads
+
+***
+
+azure database for postgresql: Hyperscale (Citus)
+
+- horizontally scale queries across multiple machines using sharding
+- query engine parallelizes incoming SQl across these servers for faster responses on large datasets
+- serves apps that require greater scale / performance --> workloads approaching 100GB+

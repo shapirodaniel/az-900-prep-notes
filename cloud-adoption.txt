@@ -1,0 +1,31 @@
+azure cloud adoption framework
+
+strategy: understand motivations, business outcomes/justification, prioritize project
+
+plan: digital estate, initial org alignment, skills readiness plan, cloud adoption plan
+
+ready: azure readiness guide, first landing zone, expand the blueprint, best practice validation
+
+adopt: migrate, then innovate -- move the first workload, expand scenaria, validate best practices, improve processes, *then iterate and innovate
+
+(govern and manage throughout -- methodologies and benchmarks should be iterated, and manage business commitments, ops baseline, and grow ops maturity over time)
+
+***
+
+detailed breakdown
+
+- strategy: identify your path and document decisions
+
+- plan: prepare with strategic migration assessment and readiness tool (SMART), standardize processes by deploying a backlog to azure boards
+
+- ready: document naming/tagging standards, use a lightweight implementation of an initial governance foundation, provision/prepare to host workloads migrated from on-prem into azure (a deployment landing zone)
+
+- govern: benchmark assessment, CAF foundation blueprint, cost management discipline, deployment acceleration, policy statements for >> identity reqs, resource consistency discipline, security baseline discipline >> and azure governance visualizer
+
+- migrate: migration discovery checklist, and templates for migration (AVD, servers, SQL, AKS deployments)
+
+- innovate: deployment checklists for knowledge mining, modern data warehouse, retail recommender (AI + modern IoT), etc
+
+- manage: azure well-architected review online assessment, best practices source code, ops mgmt workbook
+
+- organize: track org structure decisions with RACI spreadsheet

@@ -1,0 +1,3 @@
+serverless computing: devs deploy code and pay for runtime only, without provisioning, config, and management of the underlying infra -- all carried out by the cloud provider with no visibility to devs
+
+IaaS: CSP takes care of underlying physical infra, but customer is responsible for installation, config, management of app components like OS, middleware, applications -- you deploy code, but IaaS billable charges include the cost of all allocated compute resources

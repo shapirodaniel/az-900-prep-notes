@@ -1,0 +1,5 @@
+service health use cases:
+
+- notification if your app service exceeds the usage quota
+- respond to planned service outages
+- implement a webhook to display health incidents

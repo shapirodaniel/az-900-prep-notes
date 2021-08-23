@@ -1,0 +1,21 @@
+use SQL Server on Azure VMs for fast migration of SQL Server from on-prem to Azure with retention of operating system access: enables lift-and-shift from an on-prem datacenter to Azure with ease, while maintaining 100 percent compatibility with SQL Server and providing full access to the database engine and operating system on the VM level
+
+use Azure SQL Database as a cost-effective serverless database with intermittent usage pattern and low compute utilization over time. serverless tier of Azure SQL Database is optimized for scenarios with intermittent or unpredictable usage patterns -- it automatically pauses the database during periods of inactivity and resumes when activity returns, enabling per second billing for compute consumed
+
+use Azure SQL Managed Instance for lift-and-shift of on-prem SQL Server with minimal changes to an Azure PaaS solution -- Azure SQL Managed Instance has near 100 percent compatibility with the latest version of SQL Server Enterprise Edition, enabling frictionless migration to Azure with minimal application and database changes -- it's a PaaS offering, eliminating overhead for the management of underlying infrastructure
+
+***
+
+SQL Server on Azure VMs: fast migration, lift-and-shift, 100% SQL Server compatibility, full access to DB engine and OS
+
+Azure SQL Database: cost-effective serverless database, intermittent usage and low compute utilization (configurable auto-pause delay)
+
+Azure SQL Managed Instance: lift-and-shift of on-prem SQL Server with minimal changes to Azure PaaS solution (preserves PaaS capabilities like auto patching, version updates, auto backups, high availability)
+
+***
+
+more generally: 
+
+- SQL Server on VMs gives you a cloud migration platform that supports Windows Server, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and Ubuntu Linux and lets you BYO license images
+
+- Azure SQL Database is a cloud implementation of MS SQL Server that lets you migrate on-prem SQL Server db without having to change your app

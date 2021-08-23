@@ -1,0 +1,10 @@
+azure cloud shell
+
+interactive browser-accessible shell environment
+select PowerShell to execute PowerShell commands or Bash to execute Azure CLI commands
+
+when running Azure PowerShell with Cloud Shell, Linux-specific functionality is available but Windows-specific functionality is not -- since Cloud Shell runs PowerShell 6 on a Linux container
+
+Cloud Shell times out with 20 min of inactivity
+
+Cloud Shell can also be run on iOS and Android, and accessed through the Azure mobile app, for managing and monitoring the Azure environment

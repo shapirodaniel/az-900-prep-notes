@@ -1,0 +1,4 @@
+conditional access policies: specify the actions that must be completed or the conditions that must be met to grant access to the requested resource
+
+
+ex, block access by location policy and require compliant devices policy

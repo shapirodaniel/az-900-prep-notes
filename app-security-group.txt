@@ -1,0 +1,2 @@
+application security group: enables you to group together servers with similar functions, like web servers
+

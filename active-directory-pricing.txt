@@ -1,0 +1,12 @@
+active directory features
+
+Azure AD Free: use security defaults to prompt users for MFA
+no granular control of enabled users or scenarios
+
+*even when security defaults aren't used to enable MFA for everyone, users assigned the "Azure AD Global Administrator" role can be configured to use MFA -- free-tier feature that ensures critical admin accounts are protected
+
+***
+
+Azure AD Premium
+P1, P2: conditional access based on user patterns
+P2: additional intelligence to prevent MFA through user pattern recognition

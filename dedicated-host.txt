@@ -1,0 +1,5 @@
+azure dedicated host: a physical server dedicated to your org's workload only -- isolated physical servers, not shared with any other Azure customers, to meet corporate compliance guidelines and standards
+
+- can't share provided physical servers across multiple Azure subscriptions
+- since physical hosts are single-tenant, they are dedicated to one Azure subscription
+- dedicated hosts are charged per dedicated host, no matter how many VMs you run on them

@@ -1,0 +1,1 @@
+azure sentinel: build a baseline behavioral profile of organizational entities to identify anomalous activity -- sentinel is a security info and event manager (SIEM) platform that can analyze data across the enterprise to identify potential threats and help with a faster, smarter response

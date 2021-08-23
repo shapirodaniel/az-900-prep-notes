@@ -1,0 +1,11 @@
+azure logic apps: a cloud-based platform for creating and running automated workflows that integrate your apps, data, services, and systems
+
+- quickly develop highly scalable integration solutions for your enterprise and B2B scenarios -- a member of Azure Integration Services
+
+- simplifies the way you connect legacy, modern, and cutting-edge systems across public, private, and hybrid cloud environments
+
+automatable tasks include:
+- schedule and send email notifications when an event happens
+- route and process customer orders across a hybrid env
+- move uploaded files from SFTP or FTP to Azure Storage
+- monitor tweets, analyze sentiment, and create alerts / tasks for items that need review

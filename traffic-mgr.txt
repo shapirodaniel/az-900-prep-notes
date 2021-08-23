@@ -1,0 +1,1 @@
+traffic manager: allows users to access azure resources from a datacenter nearest to them by using DNS

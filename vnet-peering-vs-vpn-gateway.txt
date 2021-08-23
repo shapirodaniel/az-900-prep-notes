@@ -1,0 +1,22 @@
+vnet peering: enables you to seamless connect azure vnets
+once peered, they appear as one for connectivity purposes -- traffic between VMs in the peered vnets is routed through MS backbone infra, through *private IP addresses only* -- no public internet!
+
+- you can peer vnets across azure regions
+
+***
+
+vpn gateways: a specific type of vnet gateway used to send traffic between an azure vnet and an on-prem location over the public internet -- vpn gateways can be used to send traffic between vnets, and each vnet can have only one vpn gateway
+
+***
+
+use cases
+
+vnet peering: provides low latency high bandwidth connection useful for cross-region data replication and database failover scenarios -- since traffic is private and off the public internet, customers with strict data policies prefer vnet peering, and no gateway == no extra hops in the path, ensuring low latency
+
+vpn gateways: a limited bandwidth connection, useful when encryption needed but bandwidth restrictions are tolerable and customer isn't latency-sensitive
+
+transit vnet: gateway transit enables you to use a peered vnet's gateway for connecting to on-prem, instead of creating a new gateway for connectivity
+
+secure your traffic with NSGs and security rules -- security policies can be centralized in the hub or transit vnet
+
+hub: a hub-and-spoke topology, where shared services and gateways live in the center, and spokes comprise business units and apps

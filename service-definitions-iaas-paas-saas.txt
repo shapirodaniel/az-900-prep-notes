@@ -1,0 +1,5 @@
+IaaS: allows you to rent hardware and control OS, including VMs, storage, and VNets
+
+PaaS: manage apps without controlling the underlying OS, including dev frameworks and databases like azure SQL database -- with PaaS, you don't create the VM, you only control the apps on the VM
+
+SaaS: subscribe to software, ex. Office 365

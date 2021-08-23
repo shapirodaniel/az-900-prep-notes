@@ -1,0 +1,43 @@
+azure rbac
+
+use case examples
+
+- allow one user to manage VMs in a subscription, and another user to manage VNets
+
+- allow a DBA group to manage SQL databases in a subscription
+
+- allow a user to manage all resources in a resource group: VMs, websites, subnets, etc
+
+- allow an app to access all resources in a resource group
+
+***
+
+how it works
+
+- assign azure roles to enforce permissions
+- role assignments consist of: security principal, role defintion, scope
+
+security principal: can be a user, group, service principal, or managed identity
+
+role definition: a collection of permissions that lists ops that can be performed, like read / write / delete -- they can be high-level (owner) or specific (VM reader)
+
+azure includes built-in roles
+
+***
+
+scope: set of resources that access applies to -- ex, you need to make someone a contributor for only one resource group
+
+scope can be specified at four levels:
+- management group
+- subscription
+- resource group
+- resource
+
+role assignment: attaching a role definition to a user, group, service principal, or managed identity << ie the four types of security principal
+
+role assignments are transitive for groups: if your group is a member of another group that has a role assignment, you will have those permissions as well
+
+***
+
+azure rbac allows deny assignments as well as allow -- deny assignments take precedence over role assignments
+

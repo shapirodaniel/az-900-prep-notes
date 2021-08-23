@@ -1,0 +1,26 @@
+active directory: authentication and authorization
+
+examples of AD authentication settings
+- enable password writeback to on-prem
+- enable self-service password reset
+
+example of an AD action
+- create dynamic group: create a security group / MS 365 group with dynamic group membership rules based on end user or device properties
+
+***
+
+when you transfer billing ownership of a subscription from an account in Azure AD tenant to an account in another Azure AD tenant, you're not required to associate the subscription with the new directory -- if you choose to:
+
+- all users and groups with RBAC to manage the subscription lose access
+- also applies to service principals
+- RBAC assignments do not carry over when you associate the subscription with a new tenant
+- class subscription admins like service admins and co-admins also lose access
+- the only user initially able to manage resources in the subscription is the user account that accepts the transfer
+
+could be useful if you want to reset existing management when transferring an AD tenant, but beware if you don't want to wipe out existing controls!
+
+you would also end up losing an AKS cluster if AD tenant subscription is transferred, due to lost service principal rights and lost role assignments
+
+***
+
+AD free supports 500k directory objects and SSO support for up to 10 apps per user

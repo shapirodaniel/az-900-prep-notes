@@ -1,0 +1,4 @@
+total cost of ownership (TCO) calculator: compare the difference in cost between your current on-prem infra and your predicted cloud infra
+
+- looks at on-prem hardware, electricity, IT labor, software licensing, etc
+cost does *not accurately reflect the monthly cost for azure resources you plan to deploy

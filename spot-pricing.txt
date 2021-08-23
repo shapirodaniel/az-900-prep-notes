@@ -1,0 +1,5 @@
+azure spot pricing: provides access to azure compute resources at deep discounts when unused azure capacity is available
+
+spot VMs do *not* use the standard SLA for azure VMs -- azure only allocates spot VMs if there is unused capacity available -- spot VMs can be evicted with a 30-second notice
+
+you can set the max price you agree to pay -- spot VM prices vary based on available capacity, and your VMs are automatically evicted when the current spot price is higher than your capped price, or when azure no longer has compute capacity available

@@ -1,0 +1,3 @@
+compliance manager: allows you to determine whether or not your services meet industry standards
+
+- a workflow within Service Trust Portal: allows you to view a compliance score to determine how well you comply with industry standards

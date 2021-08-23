@@ -1,0 +1,2 @@
+azure synapse analytics: accelerates time-to-insight across data warehouses and big data systems -- melds SQL, Spark, Pipelines, and deep integration with Power BI, CosmosDB, and AzureML
+

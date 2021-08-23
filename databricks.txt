@@ -1,0 +1,8 @@
+azure databricks: an apache spark-based analytics platform designed to provide a collaborative analytics workflow -- it's well suited to meet the collaborative requirements of shared projects implemented in an interactive workspace
+
+three environments for developing data-intensive apps:
+- databrics SQL
+- databricks data science & engineering
+- databricks ML
+
+-- use azure databricks to read data from multiple data sources to support big data analysis projects

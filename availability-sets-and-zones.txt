@@ -1,0 +1,26 @@
+availability set: a group with two or more VMs in the same data center
+ensures that at least one of the VMs will be available if someting happens
+99.95% SLA
+
+ex, two pairs of web and database servers in two separate fault domains ie server racks within a single data center -- availability sets are like async clusters with emphasis on running VMs, not sync
+
+configure an availability set ONLY when deploying a new VM (can't add existing VM to an availability set, since the set is provisioned in whole)
+
+***
+
+availability zone: VMs in different physical locations within an azure region, 99.99% SLA
+two categories: zonal services and zone-redundant services
+
+zonal services: add the resource to a specific zone
+zone-redundant services: automatic replication across zones is enabled for SQL Database and zone-redundant storage
+
+***
+
+availability zones don't support all VM sizes -- check the SKUs to see what's available (PowerShell / CloudShell)
+
+for 99.99% SLA you must deploy at least 2 VMs into at least 2 different zones
+
+***
+
+availability set: protect from hardware failures within datacenters 99.95%
+availability zone: protect from entire datacenter failure 99.99%

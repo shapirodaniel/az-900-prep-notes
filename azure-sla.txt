@@ -1,0 +1,6 @@
+Azure SLA stuff
+
+a company has a single Azure VM deployed in North Central US
+you need to improve the SLA to 99.99% availability
+you want to minimize the costs associated with the solution
+

@@ -1,0 +1,4 @@
+azure files: can be used to persist Azure Container Instances (ACI) state
+ACI resources are stateless -- if the container is restarted, crashes, or stops -- all state is lost
+
+use azure file share mounted in ACI to persist state beyond the lifetime of the container

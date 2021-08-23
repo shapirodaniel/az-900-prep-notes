@@ -1,0 +1,14 @@
+azure advisor: integrates with azure security center
+helps prevent, detect, and respond to threats in azure resources
+analyzes resource config and usage telemetry to provide recommendations for
+- high availability
+- security
+- performance
+- cost
+
+security recs: security tab on advisor dashboard
+security center id's potential security vulnerabilities and creates recommendations
+
+***
+
+a personal cloud consultant that provides info to follow best practices and optimize azure deployments, while providing recommendations for proactive, actionable, and personalized best practices

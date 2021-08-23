@@ -1,0 +1,3 @@
+cost management: built-in service that gives you a breakdown of the usage and cost of your azure resource -- allows you to see what's costing how much and how it compares against your budget (requires an existing subscription)
+
+-- allows you to set up alerts to send SMS when azure resources use 90% of your company's monthly azure budget, for example -- the tool allows you to view historical breakdowns of azure resources costs, and set up alerts that get triggered when costs exceed a budget threshold

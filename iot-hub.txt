@@ -1,0 +1,18 @@
+azure iot hub: a central message hub for two-way comms between an iot app and its attached devices -- almost any device can be connected
+
+messaging patterns include:
+- device-to-cloud telemetry
+- file upload from device
+- req-reply methods
+
+monitoring supported as well
+
+authentication via SAS tokens and/or CA
+
+integrations include:
+- azure event grid
+- azure logic apps
+- azure machine learning
+- azure stream analytics for real-time analytic computation
+
+iot hub has 99.9% SLA

@@ -1,0 +1,8 @@
+tags: values are case-sensitive, names are not -- apply them to azure resources, resource groups, or subscriptions using PowerShell, Azure CLI, ARM templates, or Azure portal
+
+**not all resources support tags! classic resources that predate ARM can't support tags, as well as a few other resources...
+
+you can have up to 50 tag name-value pairs
+
+tags applied to a resource group are NOT inherited by resources in the group, and they're also not inherited if applied at the subscription level -- they need to either be applied manually within the group, or you'll need an Azure policy that automatically applies rquired tags from resource groups or the subscription to resources during their deployment
+

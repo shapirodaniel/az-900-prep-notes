@@ -1,0 +1,5 @@
+azure blueprints: simplify deployments by packaging artifacts like ARM templates, RBAC, resources groups, and policies into a single blueprint definition
+
+designed to help with **environment setup** -- usually consisting of a set of artifacts
+
+allows you to compose and version the package through a CI/CD pipeline

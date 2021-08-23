@@ -1,0 +1,7 @@
+initiatives: a collection of Azure policies definitions, usually grouped with the aim of achieving a single goal
+
+- used to simplify managing and assigning policies -- the same initiative can be assigned to multiple scopes to include resources, resource groups, subscriptions, or management groups
+
+- when evaluated, all policies are evaluated -- move any policies you don't want to run with the others into a separate initiative
+
+- initiatives can only contain policies located in the same subscription -- to assign the same initiative to scopes across multiple subscriptions, you must create policies and initiatives in each subscription

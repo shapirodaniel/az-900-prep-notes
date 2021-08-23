@@ -1,0 +1,4 @@
+azure AD multi-factor authentication: user is prompted for additional form of id at sign-in
+
+an MFA server is required for users located on on-prem AD only -- Azure MFA Service (Cloud) does **not support this config, and requires Azure AD as a security component
+

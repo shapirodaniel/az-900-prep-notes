@@ -1,0 +1,25 @@
+azure hdinsight: a managed apache hadoop service that lets you run apache spark / hive / kafka / hbase etc in the cloud
+
+use cases: 
+- extract, transform, and load (ETL) batch processing
+- data warehousing
+- machine learning
+- IoT
+
+***
+
+why use?
+
+- cloud native: create optimized clusters for hadoop / spark / LLAP / kafka / storm / hbase on azure -- also provides an end-to-end SLA on production workloads
+
+- low-cost / scalable
+
+- secure and compliant
+
+- monitoring integration with azure monitor logs
+
+- global availability: available in more regions than any other big data anlytics offering, also available in azure government, china, and germany, allowing you to meet business needs in key sovereign areas
+
+- rich productive tools
+
+- extensible via script actions, edge nodes, or integration with other big data certified apps

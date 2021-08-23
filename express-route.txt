@@ -1,0 +1,1 @@
+ExpressRoute: traffic routed over a private connection -- enabled through a connectivity provider at a colocation facility that lets you link your on-prem networks to MS Cloud services like Azure and MS 365

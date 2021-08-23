@@ -1,0 +1,4 @@
+application insights: an application performance management service
+detects performance in real-time, allows cloud / on-prem apps to send telemetry data to azure
+
+important! sending telemetry back to azure is what differentiates App Insights

@@ -1,0 +1,10 @@
+ex, company wants to host data disks on azure cloud
+disks must be available to on-prem machines running win/lin/mac using network sharing via Server Message Block (SMB) protocol, and data must be secure at-rest/in-transit
+
+choose file storage: supports SMB, allows multiple VMs to access the disks, more options for access including REST, client libraries
+
+*don't use disk storage* -- stores data as a virtual hard disk (VHD) available *only to the VM it's attached to -- does **not provide outside access!
+
+*don't use blob* -- very large quantities of unstructured data
+
+*don't use archive* -- low-cost storage option for data that's rarely accessed

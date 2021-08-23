@@ -1,0 +1,29 @@
+workload: a collection of IT assets -- servers, VMs, apps, data, appliances -- that collectively support a defined process
+
+- workloads can support more than one process
+- workloads can depend on other shared assets or larger platforms
+- a workload should have defined boundaries regarding the dependant assets and processes that depend on the workload
+
+workloads can be visualized by monitoring network traffic among IT assets
+
+***
+
+approach to incremental cloud adoption: chunk the process into 10 workload chunks and prioritize -- initially, enumerate business inputs
+
+workload name
+workload description
+adoption motivations
+primary sponsor
+business impact
+app impact
+data impact
+business unit
+business processes
+business teams
+business stakeholders
+business outcomes
+metrics
+compliance
+app owners
+business freeze periods
+geographies
