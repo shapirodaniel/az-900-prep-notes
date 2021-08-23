@@ -1,5 +1,2 @@
 webhooks: you want to receive a push update, so you supply an HTTP endpoint for the server that's processing new data, and whenever a change occurs that you've subscribed to, that change triggers the webhook, which POSTs the event to your endpoint, at which point, you can consume the POST body
 
-the evented web pattern
-
-this would be the key to consuming GitHub changes and publishing them to coode, provided we can subscribe to commits by a specific user when they oauth into the platform
